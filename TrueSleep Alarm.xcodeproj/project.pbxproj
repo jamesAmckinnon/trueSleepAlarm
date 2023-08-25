@@ -9,12 +9,20 @@
 /* Begin PBXBuildFile section */
 		1A276EE22A6C86DE0037838A /* TrueSleep Alarm Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1A276EE12A6C86DE0037838A /* TrueSleep Alarm Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1A276EE72A6C86DE0037838A /* TrueSleep_AlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A276EE62A6C86DE0037838A /* TrueSleep_AlarmApp.swift */; };
-		1A276EE92A6C86DE0037838A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A276EE82A6C86DE0037838A /* ContentView.swift */; };
 		1A276EEB2A6C86E10037838A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A276EEA2A6C86E10037838A /* Assets.xcassets */; };
 		1A276EEE2A6C86E10037838A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A276EED2A6C86E10037838A /* Preview Assets.xcassets */; };
 		1A276EF82A6C86E20037838A /* TrueSleep_Alarm_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A276EF72A6C86E20037838A /* TrueSleep_Alarm_Watch_AppTests.swift */; };
 		1A276F022A6C86E20037838A /* TrueSleep_Alarm_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A276F012A6C86E20037838A /* TrueSleep_Alarm_Watch_AppUITests.swift */; };
 		1A276F042A6C86E20037838A /* TrueSleep_Alarm_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A276F032A6C86E20037838A /* TrueSleep_Alarm_Watch_AppUITestsLaunchTests.swift */; };
+		1A44406C2A78AC3E00C22774 /* ExtendedRuntimeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A44406B2A78AC3E00C22774 /* ExtendedRuntimeDelegate.swift */; };
+		1A9BD9792A6D89AD00B5632C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9BD9782A6D89AD00B5632C /* MainView.swift */; };
+		1A9BD97B2A6D8A3F00B5632C /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9BD97A2A6D8A3F00B5632C /* SummaryView.swift */; };
+		1A9BD97F2A6D8ABE00B5632C /* SessionPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9BD97E2A6D8ABE00B5632C /* SessionPagingView.swift */; };
+		1A9BD9832A6D8B5000B5632C /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9BD9822A6D8B5000B5632C /* ControlsView.swift */; };
+		1A9BD9852A6D8BA300B5632C /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9BD9842A6D8BA300B5632C /* ElapsedTimeView.swift */; };
+		1A9BD9892A6D8D3000B5632C /* CurrentSleepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9BD9882A6D8D3000B5632C /* CurrentSleepView.swift */; };
+		1A9BD98B2A6D8D7700B5632C /* SleepManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9BD98A2A6D8D7700B5632C /* SleepManager.swift */; };
+		1A9BD98F2A6DB12700B5632C /* TimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9BD98E2A6DB12700B5632C /* TimePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +67,6 @@
 		1A276EDB2A6C86DE0037838A /* TrueSleep Alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TrueSleep Alarm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A276EE12A6C86DE0037838A /* TrueSleep Alarm Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TrueSleep Alarm Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A276EE62A6C86DE0037838A /* TrueSleep_AlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueSleep_AlarmApp.swift; sourceTree = "<group>"; };
-		1A276EE82A6C86DE0037838A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1A276EEA2A6C86E10037838A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A276EED2A6C86E10037838A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1A276EF32A6C86E20037838A /* TrueSleep Alarm Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TrueSleep Alarm Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +74,17 @@
 		1A276EFD2A6C86E20037838A /* TrueSleep Alarm Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TrueSleep Alarm Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A276F012A6C86E20037838A /* TrueSleep_Alarm_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueSleep_Alarm_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		1A276F032A6C86E20037838A /* TrueSleep_Alarm_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueSleep_Alarm_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1A44406B2A78AC3E00C22774 /* ExtendedRuntimeDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendedRuntimeDelegate.swift; sourceTree = "<group>"; };
+		1A9BD9782A6D89AD00B5632C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1A9BD97A2A6D8A3F00B5632C /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		1A9BD97E2A6D8ABE00B5632C /* SessionPagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionPagingView.swift; sourceTree = "<group>"; };
+		1A9BD9822A6D8B5000B5632C /* ControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
+		1A9BD9842A6D8BA300B5632C /* ElapsedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTimeView.swift; sourceTree = "<group>"; };
+		1A9BD9882A6D8D3000B5632C /* CurrentSleepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentSleepView.swift; sourceTree = "<group>"; };
+		1A9BD98A2A6D8D7700B5632C /* SleepManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepManager.swift; sourceTree = "<group>"; };
+		1A9BD98C2A6D91AF00B5632C /* TrueSleep Alarm Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "TrueSleep Alarm Watch App.entitlements"; sourceTree = "<group>"; };
+		1A9BD98D2A6D91BE00B5632C /* TrueSleep-Alarm-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TrueSleep-Alarm-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		1A9BD98E2A6DB12700B5632C /* TimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +136,18 @@
 		1A276EE52A6C86DE0037838A /* TrueSleep Alarm Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				1A9BD98D2A6D91BE00B5632C /* TrueSleep-Alarm-Watch-App-Info.plist */,
+				1A9BD98C2A6D91AF00B5632C /* TrueSleep Alarm Watch App.entitlements */,
 				1A276EE62A6C86DE0037838A /* TrueSleep_AlarmApp.swift */,
-				1A276EE82A6C86DE0037838A /* ContentView.swift */,
+				1A9BD9782A6D89AD00B5632C /* MainView.swift */,
+				1A9BD98E2A6DB12700B5632C /* TimePicker.swift */,
+				1A9BD97A2A6D8A3F00B5632C /* SummaryView.swift */,
+				1A9BD98A2A6D8D7700B5632C /* SleepManager.swift */,
+				1A9BD97E2A6D8ABE00B5632C /* SessionPagingView.swift */,
+				1A9BD9882A6D8D3000B5632C /* CurrentSleepView.swift */,
+				1A9BD9822A6D8B5000B5632C /* ControlsView.swift */,
+				1A9BD9842A6D8BA300B5632C /* ElapsedTimeView.swift */,
+				1A44406B2A78AC3E00C22774 /* ExtendedRuntimeDelegate.swift */,
 				1A276EEA2A6C86E10037838A /* Assets.xcassets */,
 				1A276EEC2A6C86E10037838A /* Preview Content */,
 			);
@@ -309,7 +337,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A276EE92A6C86DE0037838A /* ContentView.swift in Sources */,
+				1A9BD9892A6D8D3000B5632C /* CurrentSleepView.swift in Sources */,
+				1A9BD98B2A6D8D7700B5632C /* SleepManager.swift in Sources */,
+				1A9BD9852A6D8BA300B5632C /* ElapsedTimeView.swift in Sources */,
+				1A9BD9832A6D8B5000B5632C /* ControlsView.swift in Sources */,
+				1A9BD97B2A6D8A3F00B5632C /* SummaryView.swift in Sources */,
+				1A9BD97F2A6D8ABE00B5632C /* SessionPagingView.swift in Sources */,
+				1A44406C2A78AC3E00C22774 /* ExtendedRuntimeDelegate.swift in Sources */,
+				1A9BD98F2A6DB12700B5632C /* TimePicker.swift in Sources */,
+				1A9BD9792A6D89AD00B5632C /* MainView.swift in Sources */,
 				1A276EE72A6C86DE0037838A /* TrueSleep_AlarmApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,12 +502,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TrueSleep Alarm Watch App/TrueSleep Alarm Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TrueSleep Alarm Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 63YYHDZ766;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TrueSleep-Alarm-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "TrueSleep Alarm";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Your sleep related data wil be used to display  your saved sleeps in the app";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Sleeps tracked by TrueSleep will be saved to HealthKit";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -495,12 +536,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TrueSleep Alarm Watch App/TrueSleep Alarm Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TrueSleep Alarm Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 63YYHDZ766;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TrueSleep-Alarm-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "TrueSleep Alarm";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Your sleep related data wil be used to display  your saved sleeps in the app";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Sleeps tracked by TrueSleep will be saved to HealthKit";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -526,6 +572,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63YYHDZ766;
 				INFOPLIST_KEY_CFBundleDisplayName = "TrueSleep Alarm";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "TrueSleep.TrueSleep-Alarm";
@@ -541,6 +588,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63YYHDZ766;
 				INFOPLIST_KEY_CFBundleDisplayName = "TrueSleep Alarm";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "TrueSleep.TrueSleep-Alarm";

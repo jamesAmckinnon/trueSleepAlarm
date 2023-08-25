@@ -9,9 +9,21 @@ import SwiftUI
 
 @main
 struct TrueSleep_Alarm_Watch_AppApp: App {
-    var body: some Scene {
+    @StateObject var sleepManager = SleepManager()
+    @StateObject var extensionDelegate = ExtensionDelegate()
+    
+    @SceneBuilder var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView{
+                MainView()
+            }
+            .sheet(isPresented: $sleepManager.showingSummaryView){
+                SummaryView()
+            }
+            .environmentObject(sleepManager)
+            .environmentObject(extensionDelegate)
         }
+        
+//        WKNotificationScene(controller: NotificationController.self, category: "myCategory")
     }
 }
